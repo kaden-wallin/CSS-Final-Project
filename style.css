@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+.background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.logo {
+    width: 20%;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+}
+input {
+    width: 30%;
+    color: gray;
+    border: none;
+    margin-right: 63%;
+}
+.search-bar {
+    background-color: white;
+    width: 30%;
+    margin-left: 1em;
+    padding-left: 1em;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    padding-right: 1em;
+}
+.search-icon {
+    width: 15px;
+}
+.mic {
+    width: 12px;
+}
+.profile-pic {
+    width: 30px;
+    border-radius: 50px;
+}
+.google-apps {
+    width: 30px;
+}
+.top-bar {
+    color: white;
+    font-size: small;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+.top-bar > ul > li {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+.pencil {
+    width: 15px;
+    position: absolute;
+    right: 1.5em;
+    bottom: 1.5em;
+}
+.suggestion-circle {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    padding: 28px;
+    border-radius: 100%;
+}
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    position: absolute;
+    left: 39%;
+    top: 45%;
+}
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+    position: absolute;
+    left: 41%;
+    top: 55%;
+}

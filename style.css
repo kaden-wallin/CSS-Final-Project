@@ -64,10 +64,8 @@ input {
     bottom: 1.5em;
 }
 .suggestion-circle {
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    padding: 28px;
+    width: 50px;
+    height: auto;
     border-radius: 100%;
 }
 .top-row {
@@ -87,4 +85,8 @@ input {
     position: absolute;
     left: 41%;
     top: 55%;
+}
+.suggestion-circle-container {
+    color: white;
+    text-align: center;
 }
